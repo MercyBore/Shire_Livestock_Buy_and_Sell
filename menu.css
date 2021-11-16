@@ -1,12 +1,41 @@
+.logo{
+    height: 50px;
+    width: 50px;
+    color: green;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 520px;
+}
+.head{
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 200px;
+    color:rgba(59, 186, 38, 1) ;
+}
+ .nav{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -200px;
+    color:rgba(59, 186, 38, 1) ;
+    /* line-height: -50px; */
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    justify-content:end;
+    margin-right: 150px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    margin: 20px;
+    margin-bottom: 20px;}
 .menu {
     text-align: center;
 }
 .container{
     display: flex;
-    height: 400px;
 
 }
-.head{
+.head1{
     text-align: center;
 }
 
@@ -22,14 +51,20 @@
     width: 85%; padding: 20px;
     background-size: cover;
 }
-.cow .price.cart{
+ .price.cart{
     display:flex;
+
 
 }
 
 
 .one .cart img, .two .cart img, .three .cart img{
-    height:30px;
-    width:30px; 
+  
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 170px;
+    top:-60px;
+
 }
 
