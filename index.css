@@ -1,0 +1,33 @@
+.logo{
+    height: 50px;
+    width: 50px;
+    color: green;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 600px;
+}
+.head{
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 200px;
+    color:rgba(59, 186, 38, 1) ;
+}
+.nav{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -200px;
+    color:rgba(59, 186, 38, 1) ;
+    /* line-height: -50px; */
+}
+.button{
+    display: flex;
+    justify-content:end;
+    margin-right: 150px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    margin: 20px;
+    margin-bottom: 20px;
+  
+    
+    
+}
