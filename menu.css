@@ -1,0 +1,25 @@
+.menu {
+    text-align: center;
+}
+.container{
+    display: flex;
+    background-color: rgba(229, 229, 229, 1);
+}
+.head{
+    text-align: center;
+}
+.cow1, .cow2, .cow3{
+    background-color: rgba(229, 229, 229, 1);
+    text-align: left;
+    padding: 0px; 
+    width: 80%;
+    margin: 1%;
+    height: 300px;
+    box-shadow:  0 6px 15px 0 rgba(0, 0, 0, 0.1);
+}
+.container img{
+    height: 50%;
+    width: 100%;
+    position: centre;
+    background-size: contain;
+}
