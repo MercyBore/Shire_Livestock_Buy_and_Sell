@@ -4,7 +4,7 @@
     color: green;
     /* display: flex; */
     /* justify-content: center; */
-    margin-left: 520px;
+    margin-left: 380px;
 }
 .head{
     white-space: nowrap;
@@ -14,7 +14,7 @@
 }
  .nav{
     display: flex;
-    margin-left: 400px;
+    margin-left: 290px;
     margin-top: -200px;
     color:rgba(59, 186, 38, 1) ;
     /* line-height: -50px; */
@@ -40,9 +40,9 @@
 }
 
 .one, .two, .three{
-    background-color: rgba(229, 229, 229, 1);
+    background-color: rgba(196, 196, 196, 1);
     text-align: left;
-    width: 50%; height: 400px;
+    width: 50%; height: 400px; border-radius: 20px;
     margin: 20px;
     box-shadow:  0 6px 15px 0 rgba(0, 0, 0, 0.1);
 }
@@ -67,4 +67,22 @@
     top:-60px;
 
 }
-
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(59, 186, 38, 1);
+}
+.footer2{
+    /* display: flex;   */
+    /* justify-content: space-between; */
+    color: rgba(59, 186, 38, 1);
+}
+.pic{
+    display: flex;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+}
