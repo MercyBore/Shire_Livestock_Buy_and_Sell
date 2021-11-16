@@ -4,7 +4,8 @@
     color: green;
     /* display: flex; */
     /* justify-content: center; */
-    margin-left: 600px;
+    margin-left: 835px;
+    padding-top: 20px;
 }
 .head{
     white-space: nowrap;
@@ -14,11 +15,13 @@
 }
  .nav{
     display: flex;
-    margin-left: 500px;
+    margin-left: 720px;
     margin-top: -200px;
     color:rgba(59, 186, 38, 1) ;
     /* line-height: -50px; */
     text-decoration: none;
+    font-size: 20px;
+    
 }
 .button{
     display: flex;
