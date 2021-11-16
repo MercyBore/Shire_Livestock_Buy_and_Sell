@@ -28,6 +28,7 @@
     /* padding-right: 40px; */
     margin: 20px;
     margin-bottom: 20px;
+    
      
 }
 .cow{
@@ -67,6 +68,7 @@
 .pic{
     display: flex;
     margin-right: 70px;
+    cursor: pointer;
     
 }
 .final{
