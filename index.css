@@ -59,3 +59,16 @@
     color: rgba(59, 186, 38, 1);
     
 }
+.footer2{
+    /* display: flex;   */
+    /* justify-content: space-between; */
+    color: rgba(59, 186, 38, 1);
+}
+.pic{
+    display: flex;
+    
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+}
