@@ -1,0 +1,21 @@
+.about{
+    text-align: center;
+    background-image: url("images/luca-basili-0vVQWN_D26c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
+.statements{
+    display: flex;
+    column-count:3;
+    column-gap: 20px;
+    text-align: center;
+    margin-left: 520px;
+
+    
+
+}
