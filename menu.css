@@ -3,25 +3,33 @@
 }
 .container{
     display: flex;
-    background-color: rgba(229, 229, 229, 1);
+    height: 400px;
+
 }
 .head{
     text-align: center;
 }
-.cow{
-    margin: 10px;
-}
-.cow1, .cow2, .cow3{
+
+.one, .two, .three{
     background-color: rgba(229, 229, 229, 1);
     text-align: left;
-    width: 80%;
-    margin: 10px;
-    height: 300px;
+    width: 50%; height: 400px;
+    margin: 20px;
     box-shadow:  0 6px 15px 0 rgba(0, 0, 0, 0.1);
 }
 .container img{
     height: 50%;
-    width: 100%;
-    background-size: contain;
+    width: 85%; padding: 20px;
+    background-size: cover;
+}
+.cow .price.cart{
+    display:flex;
+
+}
+
+
+.one .cart img, .two .cart img, .three .cart img{
+    height:30px;
+    width:30px; 
 }
 
