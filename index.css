@@ -12,12 +12,13 @@
     margin-bottom: 200px;
     color:rgba(59, 186, 38, 1) ;
 }
-.nav{
+ .nav{ 
     display: flex;
     margin-left: 500px;
     margin-top: -200px;
     color:rgba(59, 186, 38, 1) ;
     /* line-height: -50px; */
+    text-decoration: none; 
 }
 .button{
     display: flex;
@@ -27,7 +28,28 @@
     /* padding-right: 40px; */
     margin: 20px;
     margin-bottom: 20px;
-  
+     
+}
+.cow{
+    background-image: url("images/image 2cow.jpg");
+    height: 350px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* width: -500px; */
+    background-position: center;
+    /* margin-top: 100px; */
+    padding: 100px;
+}
+.cow>h1 {
+    text-align: center;
+    /* margin-top: 100px; */
     
     
+}
+.cow>p{
+    text-align: center;
+}
+.farm{
+    color:rgba(23, 63, 16, 1) ;
+    font-size: xx-large;
 }
