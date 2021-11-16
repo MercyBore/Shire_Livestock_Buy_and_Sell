@@ -53,3 +53,9 @@
     color:rgba(23, 63, 16, 1) ;
     font-size: xx-large;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(59, 186, 38, 1);
+    
+}
