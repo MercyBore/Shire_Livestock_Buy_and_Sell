@@ -10,9 +10,7 @@
     margin-top: 40px;
     width:35%;
     margin-right: 40px;
-    
-    
-
+    color: white;
 }
 #name{
     height:30px;
@@ -31,11 +29,12 @@
     border-style: none;
     background-color: rgba(59, 186, 38, 1);
     font-size: large;
+    color: white;
 }
 .contactleft{
     margin-top: 30px;
-    padding-left: 30px;
-    
+    padding-left: 40px;
+    color: white;
 }
 .contactleft>p{
     font-size: 20px;
