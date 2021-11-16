@@ -3,25 +3,26 @@
     justify-content: space-between;
     background-image: url("images/sheepcontacts.jpg");
     background-size: cover;
+    height: 750px;
 
 }
 .form{
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 50px;
     width:35%;
-    margin-right: 40px;
+    margin-right: 50px;
     color: white;
 }
 #name{
-    height:30px;
+    height:55px;
     width: 100%;
 }
 #email{
-    height:30px;
+    height:55px;
     width: 100%;
 }
 #message{
-    height:80px;
+    height:150px;
     width: 100%;
 }
 #submit{
@@ -30,12 +31,14 @@
     background-color: rgba(59, 186, 38, 1);
     font-size: large;
     color: white;
+    margin-left: 40%;
+    
 }
 .contactleft{
     margin-top: 30px;
-    padding-left: 40px;
+    padding-left: 50px;
     color: white;
 }
 .contactleft>p{
-    font-size: 20px;
+    font-size: 30px;
 }
