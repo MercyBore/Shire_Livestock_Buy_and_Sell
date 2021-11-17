@@ -1,10 +1,28 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+
 .logo{
-    height: 50px;
-    width: 50px;
+    height: auto;
+    max-width: 100%;
+    width: 50%;
     color: green;
     /* display: flex; */
     /* justify-content: center; */
-    margin-left: 600px;
+    /* margin-left: 600px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 200px;
+    top: -40px;
+    
 }
 
 .head{
@@ -12,10 +30,13 @@
     text-align: center;
     margin-bottom: 200px;
     color:rgba(59, 186, 38, 1) ;
+    margin-top: 2px;
+    padding-bottom: 40px;
 }
  .nav{ 
     display: flex;
-    margin-left: 460px;
+    justify-content: space-evenly;
+    /* margin-left: 460px; */
     margin-top: -200px;
     color:rgba(59, 186, 38, 1) ;
     /* line-height: -50px; */
@@ -63,30 +84,43 @@
     justify-content: space-between;
     
     
+    
 }
 .footer2{
     /* display: flex;   */
     /* justify-content: space-between; */
     color: rgba(59, 186, 38, 1);
     font-size: x-large;
-}
-.pic{
-    display: flex;
-    margin-right: 70px;
-    cursor: pointer;
-    
-}
-.final{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 1350px; */
+    height: 80px;
+    background-color: black;
+    padding:70px;
+    /* position: fixed; */
+    /* text-align: center; */
+    /* padding-top: 10px; */
     display: flex;
     justify-content: space-between;
-}
 
-* {
-    box-sizing: border-box;
+
 }
-body {
-    font-family: Verdana, sans-serif;
+.pic{
+    /* display: flex; */
+    margin-left: 4px;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* padding: 20px; */  
 }
+.pic a{
+    margin-left: 20px;
+}
+/* .final{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
 .mySlides {
     display: none;
 }
@@ -123,10 +157,13 @@ img {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: grey;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+}
+.dots{
+    background-color: black;
 }
 .active {
     background-color: #717171;
@@ -155,8 +192,9 @@ img {
     }
 }
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
+@media only screen and (max-width: 800px) {
+    .slideshow-container {
+        width: 100%;
     }
 }
+
