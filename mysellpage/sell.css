@@ -1,10 +1,10 @@
 body {font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/chicken5.jpg");
+    background-image: url("chicken7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     }
     /* Full-width input fields */
-    input[type=text], input[type=password] {
+    input[type=text], input[type=password], input[type=email],  input[type=number] {
         width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -42,8 +42,7 @@ body {font-family: Arial, Helvetica, sans-serif;
         color: white;
         width: 50%;
         height: auto;
-        margin-left: 290px;
-        margin-top: 100px;
+        margin-left: 200px;
       }
       span.psw {
         float: right;
@@ -109,7 +108,7 @@ body {font-family: Arial, Helvetica, sans-serif;
            width: 100%;
         }
       }
-      .login{
+      .submit{
         text-decoration: none;
         color: white;
       }
