@@ -43,7 +43,7 @@
 }
 .form{
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
     width:35%;
     margin-right: 50px;
     color: white;
@@ -51,23 +51,39 @@
 #name{
     height:55px;
     width: 100%;
+    background-color: rgba(229, 229, 229, 1);
+    border: none;
+    margin-top:10px;
+    font-size: 20px;
 }
 #email{
     height:55px;
     width: 100%;
+    background-color: rgba(229, 229, 229, 1);
+    border: none;
+    margin-top:10px;
+    font-size: 20px;
 }
-#message{
+#mess{
     height:150px;
     width: 100%;
+    background-color: rgba(229, 229, 229, 1);
+    border: none;
+    margin-top:10px;
+    font-size: 20px;
 }
 #submit{
     padding: 15px 40px 15px 40px;
     border-style: none;
-    background-color: rgba(59, 186, 38, 1);
+    background-color: rgba(229, 229, 229, 1);
     font-size: large;
-    color: white;
+    color: black;
     margin-left: 40%;
     cursor: pointer;
+}
+#submit:hover{
+    background-color:rgba(59, 186, 38, 1) ;
+    color: white;
 }
 
 .contactleft{
@@ -77,4 +93,24 @@
 }
 .contactleft>p{
     font-size: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(59, 186, 38, 1);
+}
+.footer2{
+    /* display: flex;   */
+    /* justify-content: space-between; */
+    color: rgba(59, 186, 38, 1);
+}
+.pic{
+    display: flex;
+    margin-right: 70px;
+    cursor: pointer;
+    margin-top:15px;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
 }
