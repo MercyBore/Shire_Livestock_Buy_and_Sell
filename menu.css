@@ -53,11 +53,7 @@
 }
  .price.cart{
     display:flex;
-
-
 }
-
-
 .one .cart img, .two .cart img, .three .cart img{
   
     position: relative;
