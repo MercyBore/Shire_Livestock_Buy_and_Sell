@@ -14,11 +14,13 @@
 }
  .nav{
     display: flex;
-    margin-left: 290px;
+    margin-left: 250px;
     margin-top: -200px;
     color:rgba(59, 186, 38, 1) ;
     /* line-height: -50px; */
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 .button{
     display: flex;
@@ -33,22 +35,26 @@
 }
 .container{
     display: flex;
+    margin-left: 40px;
 
 }
 .head1{
     text-align: center;
 }
-
 .one, .two, .three{
-    background-color: rgba(196, 196, 196, 1);
+    background-color: rgba(59, 186, 38, 1);
+    color: rgb(0, 0, 0);
     text-align: left;
-    width: 50%; height: 400px; border-radius: 20px;
-    margin: 20px;
-    box-shadow:  0 6px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 30%; height: 300px; border-radius: 20px;
+    margin: 30px;
+    box-shadow:  0 6px 15px 0 rgba(1, 1, 1, 0.1);
+}
+.cow{
+    margin: 5px;
 }
 .container img{
-    height: 50%;
-    width: 85%; padding: 20px;
+    height: 40%;
+    width: 85%; padding: 10px;
     background-size: cover;
 }
  .price.cart{
@@ -57,21 +63,19 @@
 .one .cart img, .two .cart img, .three .cart img{
   
     position: relative;
-    width: 40px;
-    height: 40px;
-    left: 170px;
-    top:-60px;
+    width: 20px; border-radius: 20px;
+    background-color: white;
+    height: 20px;
+    left: 120px;
+    top:-50px;
 
 }
-.footer{
-    display: flex;
-    justify-content: space-between;
-    color: rgba(59, 186, 38, 1);
-}
+
 .footer2{
     /* display: flex;   */
     /* justify-content: space-between; */
     color: rgba(59, 186, 38, 1);
+    font-size: large;
 }
 .pic{
     display: flex;
