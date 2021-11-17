@@ -3,18 +3,43 @@
     background-image: url("images/luca-basili-0vVQWN_D26c-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    height:500px;
+    height:700px;
     text-align: center;
     color: white;
     font-size: 30px;
     
 }
-.statements{
-    
+.mission{
     text-align: center;
     font-size: 25px;
-    margin-right: 10px;
+    background-image: url("images/cow1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 700px;
+    
 }
+.mission{
+    text-align: center;
+    font-size: 25px;
+    background-image: url("images/cow1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 700px;
+    
+}
+.values{
+    text-align: center;
+    font-size: 25px;
+    background-image: url("images/cow1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 700px;
+    
+}
+
 .statements h2{
     color: rgba(23, 63, 16, 1);
 }
