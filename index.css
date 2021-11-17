@@ -56,7 +56,7 @@
 .farm{
     color:rgba(23, 63, 16, 1) ;
     font-size: xx-large;
-} */
+} 
 .footer{
     display: flex;
     justify-content: space-between;
@@ -97,6 +97,7 @@ img {
     max-width: 1500px;
     position: relative;
     margin: auto;
+    
 }
 /* Caption text */
 .text {
@@ -132,9 +133,9 @@ img {
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 3.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 3.5s;
 }
 @-webkit-keyframes fade {
     from {
