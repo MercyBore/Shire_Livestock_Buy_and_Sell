@@ -24,24 +24,38 @@
         </div>
 
          <div class="nav">
-            <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="#Home">Home</a></ul>
-             <ul><a  style="color: rgba(59, 186, 38, 1); text-decoration: none;"href="#About">About</a></ul>
-             <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="#Menu">Menu</a></ul>
-            <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="#Contacts">Contacts</a></ul>
+            <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="index.html">Home</a></ul>
+             <ul><a  style="color: rgba(59, 186, 38, 1); text-decoration: none;"href="#About.html">About</a></ul>
+             <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="Menu.html">Menu</a></ul>
+            <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="Contacts.html">Contacts</a></ul>
          </div>
          
-         <div class="cow">
-            <h1 style="color: white;font-size: 50px;"><b>Welcome to Shire<br>livestock</b></h1>
-            <br><br><br><br><br><br>
-            <marquee><p class="farm"><b>This is the farmers choice for quality services</b></p></marquee>
-            <marquee 
-                direction ="right" behavior ="alternate">
-
-            </marquee>
+         <div class="slideshow-container">
+            <div class="mySlides fade">
+                
+                <img src="images/image 2cow.jpg" style="width:100%" height="600px">
+                <div class="text" style="font-size:xx-large; height: 100px;"><b>Welcome to Shire <br>Livestock</b></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/chicken sld.jpg" style="width:100%" height="600px">
+                <div class="text" style="font-size:xx-large; height: 100px;"><b>This is the farmers choice <br>For quality services</b></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/2pigsld.jpg" style="width:100%" height="600px">
+                <div class="text" style="font-size:xx-large; height: 10px;"><b>Where we mind<br> About our customers<br> Preferences and deliver</b></div>
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
          <br><br>
          <div class="final">
-            <div class="footer">
+            <div class="footer2">
                 <h3>Copyright 2021.All rights reserved</h3>
                 </div>
                 <div class="pic">
@@ -60,6 +74,27 @@
              
 
           
-         
+   <script>
+       var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); 
+        }
+   </script>      
 </body>
 </html>
