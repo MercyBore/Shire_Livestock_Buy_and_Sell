@@ -9,9 +9,11 @@
     <title>HOME</title>
 </head>
 <body>
+    
     <div class="button">
         <a href="login.html"><button style="padding: 10px; padding-left: 30px;padding-right: 30px; border-radius: 40px; margin-right: 50px;color:rgba(59, 186, 38, 1) ;border-color: rgba(59, 186, 38, 1);background-color: white;"><b>Login</b></button></a>
-        <a href="signup.html"><button style="padding: 10px; padding-left: 30px;padding-right: 30px; border-radius: 40px;color: rgba(59, 186, 38, 1);border-color:rgba(59, 186, 38, 1) ;background-color: white;"><b>Sign Up</b></button></a>
+        <a href="sign_up.html"><button style="padding: 10px; padding-left: 30px;padding-right: 30px; border-radius: 40px;color: rgba(59, 186, 38, 1);border-color:rgba(59, 186, 38, 1) ;background-color: white;"><b>Sign Up</b></button></a>
+    
     </div>
     
     
@@ -26,9 +28,13 @@
 
          <div class="nav">
             <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="index.html">Home</a></ul>
-             <ul><a  style="color: rgba(59, 186, 38, 1); text-decoration: none;"href="#About.html">About</a></ul>
+             <ul><a  style="color: rgba(59, 186, 38, 1); text-decoration: none;"href="About.html">About</a></ul>
              <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="Menu.html">Menu</a></ul>
             <ul><a style="color: rgba(59, 186, 38, 1); text-decoration: none;" href="Contacts.html">Contacts</a></ul>
+            <div>
+                <a href="sell.html"><button style="background-color: rgba(59, 186, 38, 1);color: white; margin-left: 20px;border-radius: 20px;">Sell on Shire</button></a>
+            </div>
+            
          </div>
          
          <div class="slideshow-container">
@@ -58,7 +64,7 @@
                 </div>
                 <div class="pic">
                    <a href="https://www.facebook.com/"><img src="images/Fb.png" style="width: 30px;height: 30px;" alt=""></a>
-                   <a href="https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&[…]t_login&hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <img src="images/youtube.png" style="width: 50px;height: 50px;" alt=""></a>
+                   <a href="https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&[…]t_login&hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <img src="images/yyoutube.png" style="width: 30px;height: 30px;" alt=""></a>
                     <a href="https://www.twitter.com/"><img src="images/tweet.png"  style="width: 30px;height: 30px;" alt=""></a>
                     <a href="https://www.instagram.com/accounts/login/"> <img src="images/insta.png" style="width: 30px;height: 30px;" alt=""></a>
                     <a href="https://www.linkedin.com/"> <img src="images/linkedin.png" style="width: 30px;height: 30px;" alt=""></a>
@@ -89,7 +95,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 
        
