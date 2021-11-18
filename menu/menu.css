@@ -1,4 +1,6 @@
-
+body{
+     font-family: Verdana, sans-serif;
+}
 .logo{
     height: 50px;
     width: 50px;
@@ -84,7 +86,7 @@ h1{
     height: 60px;
     border-radius: 30px;
     background-color: white;
-    left: 120px;
+    left: 190px;
     top:-70px;
 
 }
