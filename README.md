@@ -14,8 +14,8 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone
-https://github.com/MercyBore/Shire_Livestock_Buy_and_Sell.git1. 
+2. Use this command to clone `$ git clone
+https://github.com/MercyBore/Shire_Livestock_Buy_and_Sell.git
 This will clone the repositoty into your local folder.
 ### Technologies Used
 1. HTML
