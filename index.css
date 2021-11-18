@@ -1,0 +1,195 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+
+}
+body { 
+    font-family: Verdana, sans-serif;
+} 
+
+.logo{
+    height: auto;
+    max-width: 100%;
+    width: 50%;
+    color: green;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-left: 600px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 200px;
+    top: -40px;
+    
+}
+
+.head{
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 200px;
+    color:rgba(59, 186, 38, 1) ;
+    margin-top: 2px;
+    padding-bottom: 40px;
+}
+ .nav{ 
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 460px; */
+    margin-top: -200px;
+    color:rgba(59, 186, 38, 1) ;
+    /* line-height: -50px; */
+    text-decoration: none; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content:end;
+    margin-right: 150px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    margin: 20px;
+    margin-bottom: 20px;
+    
+     
+}
+.cow{
+    
+    /* background-image: url("images/image 2cow.jpg"); */
+    height: 350px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* width: -500px; */
+    background-position: center;
+    /* margin-top: 100px; */
+    padding: 100px;
+}
+.cow>h1 {
+    text-align: center;
+    /* margin-top: 100px; */
+    
+    
+}
+.cow>p{
+    text-align: center;
+}
+.farm{
+    color:rgba(23, 63, 16, 1) ;
+    font-size: xx-large;
+} 
+.footer{ 
+    display: flex;
+    justify-content: space-between;
+}
+.footer2{
+    /* display: flex;   */
+    /* justify-content: space-between; */
+    color: rgba(59, 186, 38, 1);
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 1350px; */
+    height: 70px;
+    background-color: black;
+    padding:70px;
+    /* position: fixed; */
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.pic{
+    /* display: flex; */
+    margin-left: 4px;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* padding: 20px; */  
+}
+.pic a{
+    margin-left: 20px;
+}
+/* .final{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+    
+}
+/* Caption text */
+.text {
+    color: #F2F2F2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dots{
+    background-color: black;
+}
+.active {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3.5s;
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 800px) {
+    .slideshow-container {
+        width: 100%;
+    }
+}
+
+.terms{
+    font-size: larger;
+    margin-left: 16px;
+    /* margin-top: 10px; */
+}
