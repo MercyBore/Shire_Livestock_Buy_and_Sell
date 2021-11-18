@@ -1,13 +1,17 @@
 .about{
     text-align: center;
-    background-image: url("images/sheep13.jpg");
+    background-image: url("images/sheep10.jpg");
     background-size: cover;
     background-position: center;
     height:700px;
     text-align: center;
     color: white;
     font-size: 35px;
-    
+    padding-top: 40px;    
+}
+.about h1{
+    color: rgba(23, 63, 16, 1);
+
 }
 .mission{
     text-align: center;
