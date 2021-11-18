@@ -1,0 +1,135 @@
+*{
+    font-family: Verdana, sans-serif;;
+}
+
+.about{
+    text-align: center;
+    background-image: url("images/sheep10.jpg");
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 40px;    
+}
+
+.about h1{
+    color: rgba(23, 63, 16, 1);
+
+}
+.mission h2{
+    color:rgba(59, 186, 38, 1) ;
+}
+
+.mission{
+    text-align: center;
+    font-size: 35px;
+    background-image: url("images/cow2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 700px;
+    color:white;
+    padding-top: 40px;  
+}
+
+.vision h2{
+    color:rgba(59, 186, 38, 1) ;
+}
+.vision{
+    text-align: center;
+    font-size: 35px;
+    background-image: url("images/lucia-macedo-4gyYf1ItdHI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 700px;
+    color:white;
+    padding-top: 40px;
+}
+
+.values{
+    text-align: center;
+    font-size: 35px;
+    background-image: url("images/hen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 700px;
+    padding-top: 40px;
+    color: white;
+}
+.values h2{
+    color: green;
+}
+.statements h2{
+    color: rgba(23, 63, 16, 1);
+}
+.logo{
+    height: auto;
+    width: 50%;
+    color: green; 
+    margin-left: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 200px;
+    top: 40px;
+    display: block;    
+}
+
+.head{
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 200px;
+    color:rgba(59, 186, 38, 1) ;
+}
+
+ .nav{
+    display: flex;
+    margin-top: -200px;
+    color:rgba(59, 186, 38, 1) ;
+    text-decoration: none;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    justify-content:end;
+    margin-right: 150px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.footer2{
+    color: rgba(59, 186, 38, 1);
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70px;
+    background-color: black;
+    padding:70px;
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.pic a{
+    margin-left: 20px;
+}
+
+.terms{
+    font-size: larger;
+    margin-left: 16px;
+}
+
+
