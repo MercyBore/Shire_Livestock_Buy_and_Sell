@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2021] [MercyBore, Memory Wabwile, Kubai Augustine Mweteri, Hillary Kipkechem.]
+Copyright (c) [2021] [Memory Wabwile, Kubai Augustine Mweteri, MercyBore, Hillary Kipkechem.]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
