@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sell.css">
+    <title>Sell on Shire Livvestock page</title>
+</head>
+<body>
+  <form>
+    <div class="container">
+      <h1><b>Sell on Shire Livestock </b></h1>
+        <label for="firstname"><b>First name</b></label>
+        <input type="text" pattern="[a-zA-Z'-'\s]*" placeholder="Enter your first name" name="firstname" required>
+        <label for="lastname"><b>Last name</b></label>
+        <input type="text" placeholder="Enter your last name" name="lastname" required>
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter your email" name="email" required> 
+        <label for="idnumber"><b>ID Number</b></label>
+        <input type="number" placeholder="Enter your ID Number" name="idnumber" required> 
+        <label for="phonenumber"><b>Phone Number</b></label>
+        <input type="number" placeholder="Enter your Phone Number" name="phonenumber" required> 
+        <label for="livestock"><b>Choose the type of Livestock:</b></label><br>
+        <select name="livestock" id="livestock">
+          <option value="Cows">Cows</option>
+          <option value="Goats">Goats</option>
+          <option value="Sheep">Sheep</option>
+          <option value="Pigs">Pigs</option>
+          <option value="Chicken">Chicken</option>
+          <option value="Rabbits">Rabbits</option>
+          <option value="Turkeys">Ducks</option>
+          <option value="Turkeys">Turkeys</option>
+        </select><br><br>
+        <label for="Quantity"><b>Choose number of animals:</b></label><br>
+        <select name="Quantity" id="Quantity">
+          <option value="a">1-5</option>
+          <option value="Goats">6-10</option>
+          <option value="Sheep">11-20</option>
+          <option value="d">above 20</option>
+        </select><br><br>
+        <label for="Location"><b>Choose your Location:</b></label><br>
+        <select name="Location" id="Location">
+          <option value="Central">Central</option>
+          <option value="Rift Valley">Rift Valley</option>
+          <option value="Western">Western</option>
+          <option value="Eastern">Eastern</option>
+          <option value="Nyanza">Nyanza</option>
+          <option value="Coast">Coast</option>
+          <option value="North Eastern">North Eastern</option>
+          <option value="Nairobi">Nairobi</option>
+        </select><br><br>
+        <button class="submit"><a href="index.html" style="color: white;text-decoration: none;font-weight: bold;">Submit</a></button>
+        <input type="reset">
+    </div>
+    <div class="container">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#" style="color:rgba(59, 186, 38, 1) ;">password?</a></span>
+    </div>
+  </form>
+</div>
+<script>
+var modal = document.getElementById('id01');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
