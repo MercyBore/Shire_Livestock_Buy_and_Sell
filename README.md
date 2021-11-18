@@ -6,7 +6,8 @@ Memory Wabwile.
 Kubai Augustine Mweteri.
 Hillary Kipkechem.
 ### Description
-The website entails more about a restaurant selling food mainly,main course meals.
+This is a website that allows farmers to sell livestock. It has four main pages which are Home, About, Menu, Contacts.
+We also have additional pages which are Login, Signup and seller Pages.
 ### Prerequisities
 You need to have git installed
 You can install it with the following command in your terminal
