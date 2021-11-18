@@ -1,42 +1,46 @@
 .about{
     text-align: center;
-    background-image: url("images/luca-basili-0vVQWN_D26c-unsplash.jpg");
+    background-image: url("images/sheep13.jpg");
     background-size: cover;
     background-position: center;
     height:700px;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     
 }
 .mission{
     text-align: center;
-    font-size: 25px;
-    background-image: url("images/cow1.jpg");
+    font-size: 35px;
+    background-image: url("images/cow2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
     height: 700px;
+    color:white;
+    
     
 }
-.mission{
+.vision{
     text-align: center;
-    font-size: 25px;
-    background-image: url("images/cow1.jpg");
+    font-size: 35px;
+    background-image: url("images/lucia-macedo-4gyYf1ItdHI-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
     height: 700px;
+    color:white;
     
 }
 .values{
     text-align: center;
-    font-size: 25px;
-    background-image: url("images/cow1.jpg");
+    font-size: 35px;
+    background-image: url("images/hen.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
     height: 700px;
+    color: white;
     
 }
 
@@ -74,6 +78,7 @@
     margin: 20px;
     margin-bottom: 20px;
 }
+/*
 .footer{
     display: flex;
     justify-content: space-between;
@@ -81,7 +86,7 @@
 }
 .footer2{
     /* display: flex;   */
-    /* justify-content: space-between; */
+    /* justify-content: space-between; 
     color: rgba(59, 186, 38, 1);
 }
 .pic{
@@ -92,4 +97,45 @@
 .final{
     display: flex;
     justify-content: space-between;
+}*/
+.footer2{
+    /* display: flex;   */
+    /* justify-content: space-between; */
+    color: rgba(59, 186, 38, 1);
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 1350px; */
+    height: 70px;
+    background-color: black;
+    padding:70px;
+    /* position: fixed; */
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: space-between;
 }
+.pic{
+    /* display: flex; */
+    margin-left: 4px;
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* padding: 20px; */
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.pic a{
+    margin-left: 20px;
+}
+
+.terms{
+    font-size: larger;
+    margin-left: 16px;
+    /* margin-top: 10px; */
+}
+
+
+
