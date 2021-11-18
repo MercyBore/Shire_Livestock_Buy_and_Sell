@@ -1,0 +1,133 @@
+body{
+     font-family: Verdana, sans-serif;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    color: rgba(59, 186, 38, 1) ;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 850px;
+}
+.head{
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 200px;
+    color:rgba(59, 186, 38, 1) ;
+}
+ .nav{
+    display: flex;
+    margin-left: 400px;
+    margin-top: -200px; 
+    color:rgba(59, 186, 38, 1) ;
+    /* line-height: -50px; */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav a{
+    padding: 70px;
+}
+.button{
+    display: flex;
+    justify-content:end;
+    margin-right: 150px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    margin: 20px;
+    margin-bottom: 20px;}
+.menu {
+    text-align: center;
+    background-image: url('images/sheepbg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: white;
+}
+.container{
+    display: flex;
+    margin-left: 40px;
+   
+}
+.head1{
+    text-align: center;
+}
+.one, .two, .three{
+    background-color: rgba(59, 186, 38, 0.5);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width: 30%; height: 400px; border-radius: 20px;
+    margin: 40px;
+    box-shadow:  0 6px 15px 0 rgba(1, 1, 1, 0.1);
+    
+}
+.cow{
+    margin: 30px;
+    color:white;
+    margin-top: 30px;
+}
+.container img{
+    height: 200px;
+    width: 300px; padding: 20px; margin-left: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .price.cart{
+    display:flex;
+}
+.one .cart img, .two .cart img, .three .cart img{
+  
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    left: 190px;
+    top:-70px;
+
+}
+
+.footer2{
+    /* display: flex;   */
+    /* justify-content: space-between; */
+    color: rgba(59, 186, 38, 1);
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 1350px; */
+    height: 80px;
+    background-color: black;
+    padding:60px;
+    /* position: fixed; */
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    /* display: flex; */
+    margin-left: 4px;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+    /* justify-content: space-between; */
+    /* padding: 20px; */
+}
+
+
+
+.pic a{
+    margin-left: 10px;
+}
+
+.terms{
+    font-size: larger;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color:rgba(59, 186, 38, 1);
+    /* margin-top: 10px; */
+}

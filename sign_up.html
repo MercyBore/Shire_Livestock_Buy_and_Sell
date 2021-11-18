@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sign_up.css">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+
+    <div class="container">
+      <h1 style="color:rgba(59, 186, 38, 1) ;"><b>SIGN UP </b></h1>
+        <label for="uname" style="color: rgba(59, 186, 38, 1);"><b>First Name</b></label>
+        <input type="text" placeholder="Enter first name" name="uname" required>
+
+        <label for="uname" style="color: rgba(59, 186, 38, 1);"><b>Second Name</b></label>
+        <input type="text" placeholder="Enter second Name" name="uname" required>
+
+        <label for="address" style="color: rgba(59, 186, 38, 1);"><b>Address</b></label>
+        <input type="text" placeholder="Enter address" name="Address" required>
+        <label for="address" style="color: rgba(59, 186, 38, 1);"><b>Email</b></label>
+        <input type="email" placeholder="Enter email" name="email" required>
+
+         <label for="Password" style="color: rgba(59, 186, 38, 1);"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="Password" style="color:rgba(59, 186, 38, 1) ;"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button class="login"><a href="index.html" style="color: white;text-decoration: none;font-weight: bold;">Confirm</a></button>
+         <label>
+        <input type="checkbox" checked="checked" name="remember";>Remember me
+        </label>
+    </div>
+    <div class="container">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#" style="color:rgba(59, 186, 38, 1) ;">password?</a></span>
+    </div>
+  </form>
+</div>
+<script>
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    
+</body>
+</html>
