@@ -20,7 +20,8 @@
     color:rgba(59, 186, 38, 1) ;
     /* line-height: -50px; */
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+  
 }
 .button{
     display: flex;
@@ -38,7 +39,7 @@
     background-size: cover;
     height: 750px;
 }
-.form{
+.forms{
     font-size: 30px;
     margin-top: 40px;
     width:35%;
