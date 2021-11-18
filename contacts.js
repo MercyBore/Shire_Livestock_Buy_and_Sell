@@ -1,31 +1,18 @@
-const container=document.
+/*const name = document.getElementById('name')
+const name = document.getElementById('email')
+const name = document.getElementById('mess')
+const errorElement = document.getElementById('error')
 
-const name = document.
-getElementById('name');
-const email = document.
-getElementById('email');
-const mess = document.
-getElementById('mess');
-const submit = document.
-getElementById('submit');
+const form = document.getElementById('form')
 
-
-const error = (input,message)=>{
-     const firstinput = input.
-     parentElement;
-     firstinput.className="firstinput error";
-     firstinput.querySelector('.message').textContent=message;
-};
-
-//to check if the value is empty
-const checkRequiredFields=(inputArr)
-=>{
-    inputArr.forEach((input)=>{
-        if(input.value.trim()===""){
-            //error message since there is no input value
-            error(input, `${input.id}is required `);  
-        } else {
-            //success 
-        }
-    })
-}
+form.addEventListener('submit', (e) => {
+    let message = []
+    if (name.value === '' || name.value == null ){
+        message.push('Name is required')
+    }
+    if(messages.length>0){
+        e.preventDefault()
+        errorElement.innerText = messages.join(', ')
+    }
+   
+}); */
