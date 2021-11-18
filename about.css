@@ -22,6 +22,7 @@
     background-repeat: no-repeat;  
     height: 700px;
     color:white;
+    padding-top: 40px;
     
     
 }
@@ -34,7 +35,7 @@
     background-repeat: no-repeat;  
     height: 700px;
     color:white;
-    
+    padding-top: 40px;
 }
 .values{
     text-align: center;
@@ -45,6 +46,7 @@
     background-repeat: no-repeat;  
     height: 700px;
     color: white;
+    padding-top: 40px;
     
 }
 
