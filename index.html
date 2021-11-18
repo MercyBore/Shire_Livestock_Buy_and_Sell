@@ -19,7 +19,7 @@
         
         
         <div class="logo"> 
-                <img src="images/logo animals.png"  alt="">
+                <img src="images/logo animals.png"  alt="logo">
             </div>
             
             
@@ -41,8 +41,8 @@
             
             <div class="slideshow-container">
                 <div class="mySlides fade"> 
-                    <img src="images/image 2cow.jpg" style="max-width:100%" height="auto">
-                    <div class="text" style="font-size:xx-large; height: 200px;"><b>WElCOME TO SHIRE<br>LIVESTOCK</b></div>
+                    <img src="images/image 2cow.jpg" style="max-width:100%" height="100%">
+                    <div class="text" style="font-size:xx-large; height: 400px;"><b>WElCOME TO SHIRE<br>LIVESTOCK</b></div>
                 </div>
                 <div class="mySlides fade">  
                     <img src="images/chicken5.jpg" style="max-width:100%" height="auto">
@@ -71,7 +71,7 @@
                     <a href="https://www.twitter.com/"><img src="images/tweet.png"  style="width: 30px;height: 30px;" alt=""></a>
                     <a href="https://www.instagram.com/accounts/login/"> <img src="images/insta.png" style="width: 30px;height: 30px;" alt=""></a>
                     <a href="https://www.linkedin.com/"> <img src="images/linkedin.png" style="width: 30px;height: 30px;" alt=""></a>
-                
+                <h1 class="terms">Terms and Conditions</h1>
                 </div>
                 <div class="design">
                     <h3><b>Designed by Group HAMM</b></h3>
@@ -84,23 +84,23 @@
 
           
    <script>
-var slideIndex = 0;
-showSlides();
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+            var slideIndex = 0;
+                        showSlides();
+                        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+             slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 
        
